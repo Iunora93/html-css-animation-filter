@@ -15,14 +15,20 @@
     transition: 3s;
 
 }
+
+/* ---------------
+    SECONDO ESERCIZIO
+    -------------- */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition-duration: 3s;
 }
 
 .ex-2-square:hover {
-
+    width: 100%;
+    background-color: red;
 }
 
 /* ------------
@@ -56,14 +62,39 @@
     background-color: transparent;   
 }
 
+/* -----------
+    QUINTO ESERCIZIO
+    ---------- */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+.ex-5-square:hover {   
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+    filter: sepia(1);
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(5);
+    border-radius: 10px;
+    transition: 3s;
 }
 
 .ex-9-img {
